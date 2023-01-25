@@ -1,5 +1,5 @@
 import user from './task 1/user.json';
-// import data from './task 2/data.json';
+import data from './task 2/data.json';
 // import friends from './task 3/friends.json';
 // import transactions from './task 4/transactions.json';
 
