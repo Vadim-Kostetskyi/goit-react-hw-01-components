@@ -1,0 +1,23 @@
+.statistics {
+  width: 356px;
+  margin: auto;
+  margin-top: 150px;
+  padding-top: 20px;
+  text-align: center;
+  background-color: rgb(232, 223, 223);
+}
+
+.title {
+  margin-bottom: 45px;
+}
+
+.statList {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.item {
+  padding: 20px;
+  /* background-color: #ff0000; */
+}
