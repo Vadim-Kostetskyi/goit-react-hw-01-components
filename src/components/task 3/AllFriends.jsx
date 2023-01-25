@@ -1,6 +1,5 @@
-import { Fragment } from "react";
-import css from "./AllFriends.module.css";
-import PropTypes from "prop-types";
+import css from './AllFriends.module.css';
+import PropTypes from 'prop-types';
 
 const FriendList = ({ friends }) => {
   return (
