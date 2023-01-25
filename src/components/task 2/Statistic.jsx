@@ -1,13 +1,13 @@
-import css from "./Statistic.module.css";
-import PropTypes from "prop-types";
+import css from './Statistic.module.css';
+import PropTypes from 'prop-types';
 
 function generateColor() {
-  return "#" + Math.floor(Math.random() * 16777215).toString(16);
+  return '#' + Math.floor(Math.random() * 16777215).toString(16);
 }
 
 const Statistics = ({ stats, title }) => {
   return (
-    <section className={css.statistics}>
+    <section className={css.statistic}>
       <h2 className={css.title}>{title}</h2>
       <ul className={css.statList}>
         {stats.map(({ label, percentage, id }) => {
