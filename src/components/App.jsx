@@ -3,8 +3,8 @@
 // import friends from './task 3/friends.json';
 // import transactions from './task 4/transactions.json';
 
-// import Profile from './task 1/Profile';
-import Statistics from './task 2/Statistic';
+import Profile from './task 1/Profile';
+// import Statistics from './task 2/Statistic';
 // import FriendList from './task 3/AllFriends';
 // import TransactionHistory from './task 4/Transitions';
 
