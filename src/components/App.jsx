@@ -1,12 +1,12 @@
-import user from './task1/user.json';
-import data from './task2/data.json';
-import friends from './task3/friends.json';
-import transactions from './task4/transactions.json';
+import user from './dataPackeges/user.json';
+import data from './dataPackeges/data.json';
+import friends from './dataPackeges/friends.json';
+import transactions from './dataPackeges/transactions.json';
 
-import Profile from './task1/Profile';
-import Statistics from './task2/Statistic';
-import FriendList from './task3/FriendList';
-import TransactionHistory from './task4/Transitions';
+import Profile from './Profile/Profile';
+import Statistics from './Statistics/Statistic';
+import FriendList from './FriendList/FriendList';
+import TransactionHistory from './TransactionHistory/Transitions';
 
 export const App = () => {
   return (

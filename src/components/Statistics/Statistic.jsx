@@ -20,8 +20,8 @@ const Statistics = ({ stats, title }) => {
                 backgroundColor: `${randomColor}`,
               }}
             >
-              <span className={css.label}>{id}</span> <br />
-              <span className={css.percentage}>{percentage}</span>
+              <span className={css.label}>{label}</span> <br />
+              <span className={css.percentage}>{percentage}%</span>
             </li>
           );
         })}
